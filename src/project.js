@@ -26,8 +26,8 @@ export default function Project(props) {
   return (
     <div className="project-card">
       <div className="project-card-icon">
-        {icon && <img className="project-icon" src={icon} />}
-        {!icon && <img className="project-icon" />}
+        {icon && <img className="project-icon" src={icon} alt="project icon"/>}
+        {!icon && <img className="project-icon" alt="project icon" />}
       </div>
       <div className="project-card-content">
         <div className="project-title">

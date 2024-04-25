@@ -1,5 +1,4 @@
 import Project from "./project";
-import TempestStudio from "./images/TempestStudio.png"
 import ZenerithIcon from "./images/ZenerithIcon.png"
 import YellowLogo from "./images/yellowlogo.jpg"
 import PULogo from "./images/park-university-logo-usa.jpg"

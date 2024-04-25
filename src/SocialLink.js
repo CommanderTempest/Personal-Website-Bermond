@@ -5,6 +5,6 @@ export default function Social(props)
   var text = props.text;
   var alter = props.alt;
   return (
-    <a className="icon-links" href={link}><img src={icon} target="_blank" alt={alter}/>{text}</a>
+    <a className="icon-links" href={link}><img src={icon} target="_blank" alt={alter} rel="noreferrer"/>{text}</a>
   )
 }
