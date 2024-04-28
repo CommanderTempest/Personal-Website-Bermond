@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import { HashRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./pages/home";
 import SpellBlade from "./pages/spellblade";
