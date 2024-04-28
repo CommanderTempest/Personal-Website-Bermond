@@ -19,6 +19,7 @@ export default function ProjectColumn() {
           links={{
             GitHub: "https://github.com/CommanderTempest/Spellblade-Delta",
             "Project Board": "https://linear.app/spellblade/team/SPE/all",
+            Download: "/#/spellblade"
           }}
           icon={SpellbladeLogo}
         />
