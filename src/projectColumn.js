@@ -45,6 +45,7 @@ export default function ProjectColumn() {
           tags={["GDScript", "Godot"]}
           links={{
             GitHub: "https://github.com/CommanderTempest/Robo-Rampage",
+            Download: "/#/roborampage"
           }}
         />
         <Project

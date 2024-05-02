@@ -2,6 +2,7 @@ import React from "react";
 import { HashRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./pages/home";
 import SpellBlade from "./pages/spellblade";
+import RoboRampage from "./pages/roborampage";
 import "./App.css";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/spellblade" element={<SpellBlade/>}/>
+        <Route path="/roborampage" element={<RoboRampage/>}/>
       </Routes>
     </Router>
   );
