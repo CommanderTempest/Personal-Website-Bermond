@@ -37,6 +37,15 @@ export default function ProjectColumn() {
           icon={ZenerithIcon}
         />
         <Project
+          title="Dungeon Delver"
+          type="Class Project"
+          startDate="May 24, 2024"
+          endDate="Ongoing"
+          desc="A 2.5D Dungeon Crawler"
+          tags={["C#", "Godot"]}
+          links={{GitHub: "https://github.com/CommanderTempest/Dungeon-Delver"}}
+          />
+        <Project
           title="Robo Rampage"
           type="Class Project"
           startDate="March 17, 2024"
