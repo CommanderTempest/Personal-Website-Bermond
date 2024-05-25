@@ -3,6 +3,7 @@ import ZenerithIcon from "./images/ZenerithIcon.png"
 import YellowLogo from "./images/yellowlogo.jpg"
 import PULogo from "./images/park-university-logo-usa.jpg"
 import SpellbladeLogo from "./images/SpellBladeLogo.png"
+import DungeonDelverImage from "./images/dungeon_delver.svg"
 
 export default function ProjectColumn() {
   return (
@@ -44,6 +45,7 @@ export default function ProjectColumn() {
           desc="A 2.5D Dungeon Crawler"
           tags={["C#", "Godot"]}
           links={{GitHub: "https://github.com/CommanderTempest/Dungeon-Delver"}}
+          icon={DungeonDelverImage}
           />
         <Project
           title="Robo Rampage"
